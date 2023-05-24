@@ -1,0 +1,451 @@
+/*conectar fuente de forma local*/
+@font-face {
+    font-family:jost-medium;
+    src: url("../multimedia/fonts/Jost-Medium.ttf");
+}
+@font-face {
+    font-family:jost-regular;
+    src: url("../multimedia/fonts/Jost-Regular.ttf");
+}
+@font-face {
+    font-family:jost-light-italic;
+    src: url("../multimedia/fonts/Jost-LightItalic.ttf");
+}
+@font-face {
+    font-family:jost-light;
+    src: url("../multimedia/fonts/Jost-Light.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;  
+    box-sizing: border-box;
+}
+
+/*fondo del sitio*/
+.body{
+    background-color:#827397;
+}
+header{
+    background-color: #E9D5DA;
+        padding:15px;
+        text-align:center;
+        
+    }
+main{
+    background-color: #827397;
+}
+.footer{
+    background-color:#363062;
+    padding:10px;
+    border:10px ;
+    margin:150px 0px 0px 0px;
+
+}
+/*barra de navegacion*/
+.barraNav{
+    color:#827397;
+    font-family:jost-regular;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#menu{
+    display: flex;
+    justify-content: space-between;
+}
+#menuredes{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+
+/*ICONO DE CONTACTO*/
+#contacto{
+    height:40px;
+    width:40px;
+    align-self: flex-end;
+}
+/*fuentes y color de titulos*/
+.titulo{
+    color: #363062;
+    font-family:jost-medium;
+    font-size: 40px;
+    padding:20px;
+    margin:20px;
+    
+}
+.subtitulo{
+    color:#363062;
+    font-family:jost-regular;
+    font-size: 24px;
+    padding:15px;
+    margin:15px;
+}
+/*fuente y color de textos*/
+.cuerpo{
+    color:#E9D5DA;
+    font-family:jost-light;
+    background-color:#827397;
+    text-align:justify;
+    padding:30px;
+
+}
+.escritoss{
+    color:#E9D5DA;
+    font-family:jost-light-italic;
+    font-style: oblique;
+    padding:25px;
+}
+#redes{
+    color: #E9D5DA;
+    font-family:jost-regular;
+    padding:25px; 
+}
+/*PORTADA DEL SITIO*/
+#imagPrincipal{
+    width:100%;
+}
+/*seccion presentacion de autora*/
+#foto-presentacion{
+    width:170px;
+    height:300px;
+}
+.presentacion{
+    padding:30px;
+    margin: 30px;
+    height:300px;
+    width:400px;
+    flex-direction: column;
+}
+/*seccion de musica*/
+#music{
+    padding: 10px 30px 200px 30px;
+    border:30px;
+    margin: 30px;
+    height:300px;
+    width:400px;
+}
+#music2{
+    padding: 10px 30px 10px 30px;
+    border:30px;
+    margin: 30px;
+    height:300px;
+    width:400px;
+
+}
+
+/*redes sociales*/
+/*ICONOS DE REDES*/
+li{
+    display: inline-block;
+}
+#ig-fb-tw{
+    height:40px;
+    width:40px;
+}
+/*viñeta de listas*/
+ul{list-style-type: none;
+}
+
+
+
+/*GALERIA DE IMAGENES BIOGRAFIA*/
+.imag-bio{
+    height:330px;
+    width:250px;
+    padding:25px;
+    margin:25px;
+}
+#galeriadeimagenes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+
+/*video SECCION INFLUENCIA*/
+.video{
+    padding:10px;
+    margin:25px;
+}
+/*imagenes SECCION INFLUENCIAS*/
+.imagenes{
+    width:350px;
+    height:400px;
+    padding-left:30px;
+    padding-right: 30px;
+}
+#influencias{
+    display: flex;
+}
+#realismossucio{
+    display: flex;
+}
+
+
+/*SECCION DE LIBROS*/
+#portada-dos{
+    height:350px;
+    width:200px;
+    padding:25px;
+    margin:25px;
+    border: 2px solid #363062;
+}
+#libro1{
+display: flex;
+}
+#libro2{
+    display: flex;
+
+}
+#seccion2{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:100px;
+    margin:30px;
+}
+.compras{
+    color:#827397;
+    font-family:jost-regular;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+/*seccion de creaciones*/
+#creaciones{
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap:20px;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "area1 area2"
+    "area3 area3"
+    "area4 area4";  
+}
+#creaciones .intro{
+    grid-area:area1;
+}
+#creaciones #music2{
+    grid-area: area2;
+}
+#creaciones #escritos{
+grid-area: area3;
+}
+#creaciones #poemas{
+    grid-area: area4;
+
+}
+.cuerpocontacto{
+    color:#E9D5DA;
+    font-family:jost-light;
+    background-color:#827397;
+    text-align:justify;
+    padding:30px;
+    display: grid;
+    gap:80px;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+    "area1 area2"
+    "area1 area2"
+    "area1 area2";
+}
+.cuerpocontacto .contactar{
+    grid-area: area1;
+}
+.cuerpocontacto .formulario{
+    grid-area: area2;
+}
+.formulario{
+    width: 500px;
+    padding: 20px;
+    padding-left:20px;
+    padding-right:100px;
+    border: 2px solid #363062;
+    border-radius:5px;
+   
+}
+.carousel-item{
+    width:500px;
+    height:700px;
+
+}
+.d-inline{
+    width:100px;
+    height:50px;
+    padding:30px;
+    margin:30px;
+}
+#poemario{
+    display: flex;
+    gap:70px;
+
+}
+
+
+
+@media(max-width:480px){
+    .barraNav{
+        font-size: 15px;
+    }
+    #menu{
+        justify-content: space-around;
+        gap: 10px;
+    }
+}
+
+@media(max-width:480px){
+    .cuerpo{
+        padding:20px;
+        font-size:15px;
+    }
+}
+
+@media(max-width:480px){
+    .titulo{
+        font-size: 20px;
+        padding:10px;
+        margin:10px;
+        
+    }
+    .subtitulo{
+        font-size: 15px;
+        padding:5px;
+        margin:5px;
+    }
+}
+@media(max-width:480px){
+    #seccion2{
+        flex-direction:column;
+        justify-content:space-between;
+        gap:200px;
+        padding:40px;
+        margin:15px;
+    }
+    #foto-presentacion{
+        width:100px;
+        height:180px;
+    }
+    .presentacion{
+        padding:15px;
+        margin: 15px;
+        height:200px;
+        width:300px;
+        flex-direction:row;
+    }
+    #music{
+        padding: 10px 10px 100px 10px;
+        border:0px;
+        margin: 15px;
+        height:200px;
+        width:300px;
+    }
+}
+
+@media(max-width:480px){
+    #ig-fb-tw{
+        height:30px;
+        width:30px;
+    }
+    #redes{
+        padding: 20px;
+        font-size:15px;
+        text-align:center;
+    }
+}
+@media(max-width: 480px){
+    #music2{
+        padding: 10px 20px 10px 20px;
+        border:20px;
+        margin: 20px;
+        height:200px;
+        width:300px;
+    
+    }
+    #creaciones{
+        display:flex;
+        flex-direction: column; 
+    }
+    .escritoss{
+        padding:20px;
+        font-size: 15px;
+    }
+    #poemario{
+        display: flex;
+        flex-direction: column;
+        gap:15px;
+    
+    }
+}
+@media(max-width:480px){
+    .imag-bio{
+        height:230px;
+        width:150px;
+        padding:1px;
+        margin:1px;
+    }
+    #galeriadeimagenes{
+        justify-content: space-between;
+    }
+    
+}
+@media(max-width:480px){
+    .cuerpocontacto{
+        padding:10px;
+        display:flex;
+        flex-direction: column;
+        gap:20px;
+        
+    }
+    .contactar{
+        font-size: 15px;
+    }
+    .formulario{
+        width: 400px;
+        padding: 20px;
+        padding-left:20px;
+        padding-right:100px;
+        border: 2px solid #363062;
+        border-radius:5px;
+       font-size: 15px;
+    }
+}
+  /* SECCION INFLUENCIA*/
+@media(max-width:480px){
+    .video{
+    padding:5px;
+    margin:2px;
+    width:400px;
+    height:200px;
+}
+.imagenes{
+    display: flex;
+    flex-direction:row;
+    width:200px;
+    height:150px;
+    padding-left:10px;
+    padding-right:10px;
+}
+#influencias{
+    display: flex;
+    flex-direction: column;
+}
+#realismossucio{
+    display: flex;
+    flex-direction: column;
+}
+}
+@media(max-width:480px){
+    .d-inline{
+        width:80px;
+        height:30px;
+        padding:15px;
+        margin:15px;
+        font-size: 15px;
+    }
+}
