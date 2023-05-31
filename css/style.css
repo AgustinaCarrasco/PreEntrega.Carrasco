@@ -30,6 +30,7 @@ header{
         text-align:center;
         padding-top:15px;
         padding-right:20px;
+        padding-bottom:5px;
         
     }
 main{
@@ -54,6 +55,12 @@ main{
 #menu{
     display: flex;
     justify-content: space-between;
+}
+nav ul li {
+    border: 2px solid #827397;
+    padding:5px;
+
+    border-radius:10px;
 }
 #menuredes{
     display: flex;
@@ -225,18 +232,21 @@ ul{list-style-type: none;
 /*SECCION DE LIBROS*/
 #portada-dos{
     height:350px;
-    width:200px;
+    width:250px;
     padding:25px;
     margin:25px;
-    border: 2px solid #363062;
+    border-radius: 2px solid #363062;
 }
 #libro1{
 display: flex;
+
 }
 #libro2{
     display: flex;
 
 }
+
+
 #seccion2{
     display:flex;
     flex-wrap: wrap;
@@ -252,6 +262,7 @@ display: flex;
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
+    margin:20px;
 }
 /*seccion de creaciones*/
 #creaciones{
