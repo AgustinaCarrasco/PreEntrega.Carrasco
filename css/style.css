@@ -112,22 +112,14 @@ main{
 #foto-presentacion{
     width:170px;
     height:300px;
+    border-radius:5%;
 }
 .presentacion{
-    padding:30px;
-    margin: 30px;
-    height:300px;
-    width:400px;
-    flex-direction: column;
+    display: flex;
+    gap:30px;
 }
+
 /*seccion de musica*/
-#music{
-    padding: 10px 30px 200px 30px;
-    border:30px;
-    margin: 30px;
-    height:300px;
-    width:400px;
-}
 #music2{
     padding: 10px 30px 10px 30px;
     border:30px;
