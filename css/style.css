@@ -113,10 +113,20 @@ main{
     width:170px;
     height:300px;
     border-radius:5%;
+    transition:.4s;
+}
+#foto-presentacion:hover{
+    width:240px;
+    height:400px;
+    border-radius:5%;
+
 }
 .presentacion{
     display: flex;
     gap:30px;
+}
+.card-link{
+    color: #827397;
 }
 
 /*seccion de musica*/
@@ -181,6 +191,15 @@ ul{list-style-type: none;
 .texto{
     grid-area: area2;
 }
+.container {
+    width: 300px;
+  }
+.maquinadeescribir{
+    float:right;
+    width:30%;
+    padding: 20px;
+    margin: 20px;
+}  
 
 
 /*video SECCION INFLUENCIA*/
