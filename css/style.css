@@ -265,12 +265,28 @@ ul{list-style-type: none;
 
 
 /*SECCION DE LIBROS*/
+#portada-uno{
+    height:350px;
+    width:250px;
+    padding:25px;
+    margin:15px;
+    transition:1s;
+}
+#portada-uno:hover{
+    height:400px;
+    width:300px;
+}
 #portada-dos{
     height:350px;
     width:250px;
     padding:25px;
-    margin:25px;
+    margin:15px;
     border-radius: 2px solid #363062;
+    transition:1s;
+}
+#portada-dos:hover{
+    height:400px;
+    width:300px;
 }
 #libro1{
 display: flex;
