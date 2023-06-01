@@ -31,7 +31,7 @@ header{
         padding-top:15px;
         padding-right:20px;
         padding-bottom:5px;
-        border-bottom: 1px solid #827397;
+        border-bottom: 2px solid #827397;
         
     }
 main{
@@ -126,15 +126,13 @@ nav ul li:hover{
     padding:25px; 
 }
 /*PORTADA DEL SITIO*/
-#imagPrincipal{
-    width:100%;
-}
+
 /*seccion presentacion de autora*/
 #foto-presentacion{
     width:170px;
     height:300px;
     border-radius:5%;
-    transition:.4s;
+    transition:1s;
 }
 #foto-presentacion:hover{
     width:240px;
@@ -145,6 +143,9 @@ nav ul li:hover{
 .presentacion{
     display: flex;
     gap:30px;
+    width: 60%; 
+    margin-left:auto;
+    margin-right:auto;
 }
 .card-link{
     color: #827397;
