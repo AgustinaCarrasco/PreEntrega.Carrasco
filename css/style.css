@@ -72,7 +72,7 @@ nav ul li {
     transition: 0.4s;
 }
 nav ul li:hover{
-    border: 2px solid #49267a;
+    border: 2px solid #981aa3;
     padding:5px;
     border-radius:10px;
 }
@@ -172,8 +172,10 @@ nav ul li:hover{
     padding: 10px 30px 10px 30px;
     border:30px;
     margin: 30px;
-    height:300px;
+    height:350px;
     width:400px;
+    background-color:#827397;
+    border-radius:10px;
 
 }
 
