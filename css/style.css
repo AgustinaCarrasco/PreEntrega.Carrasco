@@ -150,7 +150,22 @@ nav ul li:hover{
 .card-link{
     color: #827397;
 }
-
+.cards-index{
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "area1 area2 area3 area4"
+    "area1 area2 area3 area4"; 
+}
+#noticias{
+    grid-area:area1;
+    margin:20px;
+}
+#eventos{
+    grid-area:area3;
+    margin:20px;
+}
 /*seccion de musica*/
 #music2{
     padding: 10px 30px 10px 30px;
