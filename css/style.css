@@ -119,6 +119,7 @@ nav ul li:hover{
     font-family:jost-light-italic;
     font-style: oblique;
     padding:25px;
+    margin:15px;
 }
 #redes{
     color: #E9D5DA;
@@ -316,6 +317,7 @@ display: flex;
     margin:20px;
 }
 /*seccion de creaciones*/
+
 #creaciones{
     display: grid;
     grid-template-columns:repeat(2, 1fr);
@@ -328,6 +330,7 @@ display: flex;
 }
 #creaciones .intro{
     grid-area:area1;
+
 }
 #creaciones #music2{
     grid-area: area2;
