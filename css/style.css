@@ -52,7 +52,7 @@ main{
     transition:0.4s;
 }
 .barraNav:hover{
-    color: #49267a;
+    color: #981aa3;
     font-family:jost-regular;
     text-decoration: none;
     font-size: 20px;
@@ -64,15 +64,13 @@ main{
     justify-content: space-between;
 }
 nav ul li {
-    border: 2px solid #827397;
+    border-bottom: 2px solid #827397;
     padding:5px;
-    border-radius:10px;
     transition: 0.4s;
 }
 nav ul li:hover{
-    border: 2px solid #981aa3;
+    border-bottom: 2px solid #981aa3;
     padding:5px;
-    border-radius:10px;
 }
 #menuredes{
     display: flex;
@@ -119,11 +117,7 @@ nav ul li:hover{
     padding:25px;
     margin:15px;
 }
-#redes{
-    color: #E9D5DA;
-    font-family:jost-regular;
-    padding:25px; 
-}
+
 /*PORTADA DEL SITIO*/
 
 /*seccion presentacion de autora*/
@@ -190,15 +184,17 @@ nav ul li:hover{
 /*ICONOS DE REDES*/
 li{
     display: inline-block;
+    align-items: center;
+    margin:15px;
 }
 #ig-fb-tw{
-    height:40px;
-    width:40px;
+    height:30px;
+    width:30px;
     transition:.4s;
 }
 #ig-fb-tw:hover{
-    height:60px;
-    width:60px;
+    height:50px;
+    width:50px;
 }
 /*viñeta de listas*/
 ul{list-style-type: none;
