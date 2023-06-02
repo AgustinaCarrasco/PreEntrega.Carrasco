@@ -40,8 +40,6 @@ main{
 .footer{
     background-color:#363062;
     padding:10px;
-    border:10px ;
-    margin:150px 0px 0px 0px;
 
 }
 /*barra de navegacion*/
@@ -265,16 +263,17 @@ ul{list-style-type: none;
 }
 /*imagenes SECCION INFLUENCIAS*/
 .imagenes{
-    width:350px;
-    height:400px;
-    padding-left:30px;
-    padding-right: 30px;
+    width:300px;
+    height:350px;
+    padding:20px;
+    margin: 15px;
 }
 #influencias{
     display: flex;
 }
 #realismossucio{
     display: flex;
+
 }
 
 
@@ -290,6 +289,7 @@ ul{list-style-type: none;
     height:400px;
     width:300px;
 }
+
 #portada-dos{
     height:350px;
     width:250px;
@@ -378,7 +378,7 @@ grid-area: area3;
 }
 .formulario{
     width: 500px;
-    padding: 20px;
+    padding:20px;
     padding-left:20px;
     padding-right:100px;
     border: 2px solid #363062;
