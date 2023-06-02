@@ -118,7 +118,6 @@ nav ul li:hover{
     margin:15px;
 }
 
-/*PORTADA DEL SITIO*/
 
 /*seccion presentacion de autora*/
 #foto-presentacion{
@@ -144,28 +143,17 @@ nav ul li:hover{
 .card-link{
     color: #827397;
 }
-.cards-index{
-    
-    display: grid;
-    grid-template-columns:repeat(4, 1fr);
-    grid-template-rows: auto;
-    grid-template-areas: 
-    "area1 area2 area3 area4"
-    "area1 area2 area3 area4"; 
-    margin-left: auto;
-    margin-right: auto;
-}
-#noticias{
-    grid-area:area1;
-    margin:20px;
-}
-#eventos{
-    grid-area:area3;
-    margin:20px;
-}
 .portadaindex{
     width:300px;
     height:500px;
+}
+.index{
+    display:flex;
+    gap:15px;
+}
+#eventos{
+    padding:20px;
+    margin:auto;
 }
 
 /*seccion de musica*/
@@ -239,17 +227,7 @@ ul{list-style-type: none;
 .texto{
     grid-area: area2;
 }
-.container {
-    width: 300px;
-    display: flex;
-    
-  }
-.maquinadeescribir{
-    float:right;
-    width:30%;
-    padding: 20px;
-    margin: 20px;
-}  
+
 
 
 /*video SECCION INFLUENCIA*/
