@@ -388,7 +388,13 @@ grid-area: area3;
     }
     #menu{
         display:block;
+
     }
+    nav ul li {
+        border-bottom:none;
+        padding:10px;
+    }
+
 }
 @media(max-width:480px){
     header{
