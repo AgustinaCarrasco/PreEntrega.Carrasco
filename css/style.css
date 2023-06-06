@@ -505,14 +505,13 @@ grid-area: area3;
     
 @media(max-width:480px){
     .cuerpocontacto{
-        padding:10px;
-        display:flex;
-        flex-direction: column;
-        gap:20px;
+        padding:15px;
+        display:block;
         
     }
     .contactar{
         font-size: 15px;
+        margin:15px;
     }
     .formulario{
         width: 400px;
@@ -521,7 +520,8 @@ grid-area: area3;
         padding-right:100px;
         border: 2px solid #363062;
         border-radius:5px;
-       font-size: 15px;
+        font-size: 15px;
+        margin:15px;
     }
 }
   /* SECCION INFLUENCIA*/
