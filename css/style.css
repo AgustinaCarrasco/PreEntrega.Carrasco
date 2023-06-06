@@ -564,3 +564,19 @@ grid-area: area3;
         font-size: 15px;
     }
 }
+@media(max-width:480px){
+    #libro1{
+        display: block;
+    }
+
+    #libro2{
+        display:block;
+    }
+    #portadaindex{
+        width:100%;
+    }
+    .cardlibro{
+        margin:15px;
+        padding:20px;
+    }
+}
