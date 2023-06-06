@@ -143,10 +143,6 @@ nav ul li:hover{
 .card-link{
     color: #827397;
 }
-.portadaindex{
-    width:300px;
-    height:500px;
-}
 .index{
     display:flex;
     gap:15px;
@@ -387,17 +383,30 @@ grid-area: area3;
 
 @media(max-width:480px){
     .barraNav{
-        font-size: 15px;
+        font-size: 10px;
+        font-weight: bold;
     }
     #menu{
-        justify-content: space-around;
-        gap: 10px;
+        display: flex;
+        justify-content: center;
+        gap: 1px;
+        align-items: center;
     }
 }
-
+@media(max-width:480px){
+    header{
+        background-color: #E9D5DA;
+            text-align:center;
+            padding-top:5px;
+            padding-right:5px;
+            padding-bottom:5px;
+            border-bottom: 1px solid #827397;
+            
+        }
+}
 @media(max-width:480px){
     .cuerpo{
-        padding:20px;
+        padding:15px;
         font-size:15px;
     }
 }
@@ -430,17 +439,22 @@ grid-area: area3;
     .presentacion{
         padding:15px;
         margin: 15px;
-        height:200px;
-        width:300px;
-        flex-direction:row;
-    }
-    #music{
-        padding: 10px 10px 100px 10px;
-        border:0px;
-        margin: 15px;
-        height:200px;
-        width:300px;
-    }
+        height:150px;
+        width:100px;
+        display:block;
+ }
+ .card{
+    width:50px;
+ }
+ .index{
+    display:block;
+ }
+ #eventos{
+    padding-top:300px;
+    padding-left:15px;
+    padding-right:15px;
+    margin:15px;
+}
 }
 
 @media(max-width:480px){
