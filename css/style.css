@@ -387,10 +387,7 @@ grid-area: area3;
         font-weight: bold;
     }
     #menu{
-        display: flex;
-        justify-content: center;
-        gap: 1px;
-        align-items: center;
+        display:block;
     }
 }
 @media(max-width:480px){
@@ -442,19 +439,19 @@ grid-area: area3;
         height:150px;
         width:100px;
         display:block;
- }
- .card{
+    }
+    .card{
     width:50px;
- }
- .index{
+    }
+    .index{
     display:block;
- }
- #eventos{
+    }
+    #eventos{
     padding-top:300px;
     padding-left:15px;
     padding-right:15px;
     margin:15px;
-}
+    }
 }
 
 @media(max-width:480px){
@@ -493,17 +490,19 @@ grid-area: area3;
     }
 }
 @media(max-width:480px){
-    .imag-bio{
-        height:230px;
-        width:150px;
-        padding:1px;
-        margin:1px;
+    .biografia{
+        display: block;
     }
-    #galeriadeimagenes{
-        justify-content: space-between;
+    .carousel-item{
+        height:400px;
+        width:300px;
     }
-    
+    .texto{
+        display: block;
+    }
+
 }
+    
 @media(max-width:480px){
     .cuerpocontacto{
         padding:10px;
