@@ -16,35 +16,14 @@
   font-family: jost-light;
   src: url("../multimedia/fonts/Jost-Light.ttf");
 }
-.titulo {
-  color: #363062;
-  font-family: jost-medium;
-  font-size: 40px;
-  padding: 20px;
-  margin: 20px;
-}
-
-.subtitulo {
-  color: #363062;
-  font-family: jost-regular;
-  font-size: 24px;
-  padding: 20px;
-  margin: 20px;
-}
-
-.cuerpo {
-  color: #827397;
-  font-family: jost-light;
-  background-color: #E9D5DA;
-  text-align: justify;
-  padding: 20px;
-  margin: 20px;
-}
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
 }
 
 /*viñeta de listas*/
@@ -100,11 +79,6 @@ nav ul li:hover {
   align-self: flex-end;
 }
 
-/*viñeta de listas*/
-ul {
-  list-style-type: none;
-}
-
 .footer {
   background-color: #363062;
   padding: 10px;
@@ -136,8 +110,29 @@ li {
   background-color: #E9D5DA;
 }
 
-main {
+.titulo {
+  color: #363062;
+  font-family: jost-medium;
+  font-size: 40px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.subtitulo {
+  color: #363062;
+  font-family: jost-regular;
+  font-size: 24px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.cuerpo {
+  color: #827397;
+  font-family: jost-light;
   background-color: #E9D5DA;
+  text-align: justify;
+  padding: 20px;
+  margin: 20px;
 }
 
 #foto-presentacion {
@@ -287,12 +282,6 @@ main {
   width: 250px;
   padding: 25px;
   margin: 15px;
-  transition: 1s;
-}
-
-#portada-uno:hover {
-  height: 400px;
-  width: 300px;
 }
 
 #portada-dos {
@@ -300,37 +289,13 @@ main {
   width: 250px;
   padding: 25px;
   margin: 15px;
-  border-radius: 2px solid #363062;
-  transition: 1s;
 }
 
-#portada-dos:hover {
-  height: 400px;
-  width: 300px;
-}
-
-#libro1 {
+#libro1, #libro2 {
   display: flex;
   gap: 15px;
   margin: 15px;
   padding: 20px;
-}
-
-#libro2 {
-  display: flex;
-  gap: 15px;
-  margin: 15px;
-  padding: 20px;
-}
-
-#seccion2 {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  padding: 100px;
-  margin: 30px;
 }
 
 .compras {
@@ -557,7 +522,7 @@ main {
   }
 }
 @media (max-width: 480px) {
-  #libro1 {
+  #libro1, #libro2 {
     display: block;
   }
   #libro2 {

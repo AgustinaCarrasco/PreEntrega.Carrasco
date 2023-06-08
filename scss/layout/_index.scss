@@ -1,8 +1,29 @@
 .body{
-    background-color:#E9D5DA;
+    background-color:$main-color;
 }
-main{
-    background-color: #E9D5DA;
+.titulo{
+    color: #363062;
+    font-family:jost-medium;
+    font-size: 40px;
+    padding:20px;
+    margin:20px;
+    
+}
+.subtitulo{
+    color:#363062;
+    font-family:jost-regular;
+    font-size: 24px;
+    padding:20px;
+    margin:20px;
+}
+.cuerpo{
+    color:#827397;
+    font-family:jost-light;
+    background-color:#E9D5DA;
+    text-align:justify;
+    padding:20px;
+    margin:20px;
+
 }
 #foto-presentacion{
     width:170px;

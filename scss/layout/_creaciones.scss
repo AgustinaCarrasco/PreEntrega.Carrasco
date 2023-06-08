@@ -1,9 +1,5 @@
 .escritoss{
-    color:#827397;
-    font-family:jost-light-italic;
-    font-style: oblique;
-    padding:25px;
-    margin:15px;
+    @include poetry-text(#827397, jost-light-italic, oblique, 25px, 15px)
 }
 #music2{
     padding: 10px 30px 10px 30px;

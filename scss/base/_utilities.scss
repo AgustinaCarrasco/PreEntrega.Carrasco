@@ -1,0 +1,13 @@
+@mixin poetry-text ($color, $font, $style, $padding, $margin){
+    color:#827397;
+    font-family:jost-light-italic;
+    font-style: oblique;
+    padding:25px;
+    margin:15px;
+}
+@mixin imag-libros ($height, $width, $padding, $margin){
+    height:350px;
+    width:250px;
+    padding:25px;
+    margin:15px;
+}
