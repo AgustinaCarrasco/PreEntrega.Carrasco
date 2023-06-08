@@ -2,57 +2,45 @@
     background-color:$main-color;
 }
 .titulo{
-    color: #363062;
-    font-family:jost-medium;
-    font-size: 40px;
-    padding:20px;
-    margin:20px;
+    @include text-tittle (#363062, jost-medium, 40px, 20px, 20px)
     
 }
 .subtitulo{
-    color:#363062;
-    font-family:jost-regular;
-    font-size: 24px;
-    padding:20px;
-    margin:20px;
+    @include text-subtittle(#363062, jost-regular, 24px, 20px, 20px)
 }
 .cuerpo{
-    color:#827397;
-    font-family:jost-light;
-    background-color:#E9D5DA;
-    text-align:justify;
-    padding:20px;
-    margin:20px;
+    @include text-body(#827397, jost-light, justify, 20px, 20px)
+}
 
-}
-#foto-presentacion{
-    width:170px;
-    height:300px;
-    border-radius:5%;
-    transition:1s;
-}
-#foto-presentacion:hover{
-    width:240px;
-    height:400px;
-    border-radius:5%;
-
-}
-.presentacion{
-    display: flex;
-    gap:30px;
-    width: 60%; 
-    margin-left:auto;
-    margin-right:auto;
-    padding:20px;
-}
-.card-link{
-    color: #827397;
-}
 .index{
     display:flex;
     gap:15px;
+    .presentacion{
+        display: flex;
+        gap:30px;
+        width: 60%; 
+        margin-left:auto;
+        margin-right:auto;
+        padding:20px;
+    }
+    #foto-presentacion{
+        width:170px;
+        height:300px;
+        border-radius:5%;
+        transition:1s;
+    }
+    #foto-presentacion:hover{
+        width:240px;
+        height:400px;
+        border-radius:5%;
+    
+    }
+    .card-link{
+        color: #827397;
+    }
+    #eventos{
+        padding:20px;
+        margin:auto;
+    }
 }
-#eventos{
-    padding:20px;
-    margin:auto;
-}
+

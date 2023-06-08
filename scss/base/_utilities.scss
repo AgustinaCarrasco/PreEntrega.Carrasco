@@ -11,3 +11,33 @@
     padding:25px;
     margin:15px;
 }
+@mixin text-tittle ($color, $font, $size, $padding, $margin){
+    color: #363062;
+    font-family:jost-medium;
+    font-size: 40px;
+    padding:20px;
+    margin:20px;
+}
+@mixin text-subtittle ($color, $font, $size, $padding, $margin){
+    color:#363062;
+    font-family:jost-regular;
+    font-size: 24px;
+    padding:20px;
+    margin:20px;
+}
+@mixin text-body ($color, $font, $align, $padding, $margin){
+    color:#827397;
+    font-family:jost-light;
+    text-align:justify;
+    padding:20px;
+    margin:20px;
+}
+@mixin music ($padding, $border, $margin, $height, $width, $bg, $border-radius){
+    padding: 10px 30px 10px 30px;
+    border:30px;
+    margin: 30px;
+    height:350px;
+    width:400px;
+    background-color:#827397;
+    border-radius:10px;
+}

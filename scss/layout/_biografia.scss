@@ -1,27 +1,4 @@
-.imag-bio{
-    height:330px;
-    width:250px;
-    padding:25px;
-    margin:25px;
-}
-#galeriadeimagenes{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-#carouselExample{
-    width:100%;
-    height:100%;
-    position:center;
-    grid-area: area1;
 
-}
-.carousel-inner{
-    width:80%;
-    height:90%;
-    position:center;
-    margin:60px;
-}
 .biografia{
     display: grid;
     grid-template-columns:repeat(4, 1fr);
@@ -30,7 +7,21 @@
     grid-template-areas: 
     "area1 area1 area2 area2"
     "area1 area1 area2 area2";  
-}
-.texto{
-    grid-area: area2;
+    .texto{
+        grid-area: area2;
+    }
+    #carouselExample{
+        width:100%;
+        height:100%;
+        position:center;
+        grid-area: area1;
+        .carousel-inner{
+            width:80%;
+            height:90%;
+            position:center;
+            margin:60px;
+        }
+    
+    }
+    
 }

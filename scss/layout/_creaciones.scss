@@ -2,14 +2,7 @@
     @include poetry-text(#827397, jost-light-italic, oblique, 25px, 15px)
 }
 #music2{
-    padding: 10px 30px 10px 30px;
-    border:30px;
-    margin: 30px;
-    height:350px;
-    width:400px;
-    background-color:#827397;
-    border-radius:10px;
-
+    @include music (10px 30px 10px 30px,30px, 30px, 350px, 400px,#827397, 10px)
 }
 #creaciones{
     display: grid;
@@ -20,22 +13,22 @@
     "area1 area2"
     "area3 area3"
     "area4 area4";  
+    .intro{
+        grid-area:area1;
+    
+    }
+    #music2{
+        grid-area: area2;
+    }
+    #escritos{
+        grid-area: area3;
+        }
+        #poemas{
+            grid-area: area4;
+            #poemario{
+                display: flex;
+                gap:70px;
+            }
+        }
 }
-#creaciones .intro{
-    grid-area:area1;
 
-}
-#creaciones #music2{
-    grid-area: area2;
-}
-#creaciones #escritos{
-grid-area: area3;
-}
-#creaciones #poemas{
-    grid-area: area4;
-
-}
-#poemario{
-    display: flex;
-    gap:70px;
-}

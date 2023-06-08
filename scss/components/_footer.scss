@@ -1,23 +1,25 @@
 .footer{
     background-color:$foot-color;
     padding:10px;
+    #menuredes{
+        display: flex;
+        justify-content:space-evenly;
+    }
+    li{
+        display: inline-block;
+        align-items: center;
+        margin:15px;
+    }
+    #ig-fb-tw{
+        height:30px;
+        width:30px;
+        transition:.4s;
+    }
+    #ig-fb-tw:hover{
+        height:50px;
+        width:50px;
+    }
 
 }
-#menuredes{
-    display: flex;
-    justify-content:space-evenly;
-}
-li{
-    display: inline-block;
-    align-items: center;
-    margin:15px;
-}
-#ig-fb-tw{
-    height:30px;
-    width:30px;
-    transition:.4s;
-}
-#ig-fb-tw:hover{
-    height:50px;
-    width:50px;
-}
+
+
