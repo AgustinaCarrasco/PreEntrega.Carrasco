@@ -1,0 +1,45 @@
+.escritoss{
+    color:#827397;
+    font-family:jost-light-italic;
+    font-style: oblique;
+    padding:25px;
+    margin:15px;
+}
+#music2{
+    padding: 10px 30px 10px 30px;
+    border:30px;
+    margin: 30px;
+    height:350px;
+    width:400px;
+    background-color:#827397;
+    border-radius:10px;
+
+}
+#creaciones{
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap:20px;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "area1 area2"
+    "area3 area3"
+    "area4 area4";  
+}
+#creaciones .intro{
+    grid-area:area1;
+
+}
+#creaciones #music2{
+    grid-area: area2;
+}
+#creaciones #escritos{
+grid-area: area3;
+}
+#creaciones #poemas{
+    grid-area: area4;
+
+}
+#poemario{
+    display: flex;
+    gap:70px;
+}

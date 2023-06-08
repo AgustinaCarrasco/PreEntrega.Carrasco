@@ -1,0 +1,46 @@
+/*viñeta de listas*/
+ul{list-style-type: none;
+}
+header{
+    background-color: #E9D5DA;
+        text-align:center;
+        padding-top:15px;
+        padding-right:20px;
+        padding-bottom:5px;
+        border-bottom: 1px solid #827397;
+        
+    }
+    .barraNav{
+        color:#827397;
+        font-family:jost-regular;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+        transition:0.4s;
+    }
+    .barraNav:hover{
+        color: #981aa3;
+        font-family:jost-regular;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    #menu{
+        display: flex;
+        justify-content: space-between;
+    }
+    nav ul li {
+        border-bottom: 2px solid #827397;
+        padding:5px;
+        transition: 0.4s;
+    }
+    nav ul li:hover{
+        border-bottom: 2px solid #981aa3;
+        padding:5px;
+    }
+    #contacto{
+        height:40px;
+        width:40px;
+        align-self: flex-end;
+    }

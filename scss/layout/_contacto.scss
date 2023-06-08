@@ -1,0 +1,41 @@
+.cuerpocontacto{
+    color:#827397;
+    font-family:jost-light;
+    background-color:#E9D5DA;
+    text-align:justify;
+    padding:30px;
+    display: grid;
+    gap:80px;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+    "area1 area2"
+    "area1 area2"
+    "area1 area2";
+}
+.cuerpocontacto .contactar{
+    grid-area: area1;
+}
+.cuerpocontacto .formulario{
+    grid-area: area2;
+}
+.formulario{
+    width: 500px;
+    padding:20px;
+    padding-left:20px;
+    padding-right:100px;
+    border: 2px solid #363062;
+    border-radius:5px;
+   
+}
+.carousel-item{
+    width:500px;
+    height:700px;
+
+}
+.d-inline{
+    width:100px;
+    height:50px;
+    padding:30px;
+    margin:30px;
+}

@@ -1,0 +1,200 @@
+@media(max-width:480px){
+    .barraNav{
+        font-size: 10px;
+        font-weight: bold;
+    }
+    #menu{
+        display:block;
+
+    }
+    nav ul li {
+        border-bottom:none;
+        padding:10px;
+    }
+
+}
+@media(max-width:480px){
+    header{
+        background-color: #E9D5DA;
+            text-align:center;
+            padding-top:5px;
+            padding-right:5px;
+            padding-bottom:5px;
+            border-bottom: 1px solid #827397;
+            
+        }
+}
+@media(max-width:480px){
+    .cuerpo{
+        padding:15px;
+        font-size:15px;
+    }
+}
+
+@media(max-width:480px){
+    .titulo{
+        font-size: 20px;
+        padding:10px;
+        margin:10px;
+        
+    }
+    .subtitulo{
+        font-size: 15px;
+        padding:5px;
+        margin:5px;
+    }
+}
+@media(max-width:480px){
+    #seccion2{
+        flex-direction:column;
+        justify-content:space-between;
+        gap:200px;
+        padding:40px;
+        margin:15px;
+    }
+    #foto-presentacion{
+        width:100px;
+        height:180px;
+    }
+    .presentacion{
+        padding:15px;
+        margin: 15px;
+        height:150px;
+        width:100px;
+        display:block;
+    }
+    .card{
+    width:50px;
+    }
+    .index{
+    display:block;
+    }
+    #eventos{
+    padding-top:300px;
+    padding-left:15px;
+    padding-right:15px;
+    margin:15px;
+    }
+}
+
+@media(max-width:480px){
+    #ig-fb-tw{
+        height:30px;
+        width:30px;
+    }
+    #redes{
+        padding: 20px;
+        font-size:15px;
+        text-align:center;
+    }
+}
+@media(max-width: 480px){
+    #music2{
+        padding: 10px 20px 10px 20px;
+        border:20px;
+        margin: 20px;
+        height:200px;
+        width:300px;
+    
+    }
+    #creaciones{
+        display:flex;
+        flex-direction: column; 
+    }
+    .escritoss{
+        padding:20px;
+        font-size: 15px;
+    }
+    #poemario{
+        display: flex;
+        flex-direction: column;
+        gap:15px;
+    
+    }
+}
+@media(max-width:480px){
+    .biografia{
+        display: block;
+    }
+    .carousel-item{
+        height:400px;
+        width:300px;
+    }
+    .texto{
+        display: block;
+    }
+
+}
+    
+@media(max-width:480px){
+    .cuerpocontacto{
+        padding:15px;
+        display:block;
+        
+    }
+    .contactar{
+        font-size: 15px;
+        margin:15px;
+    }
+    .formulario{
+        width: 400px;
+        padding: 20px;
+        padding-left:20px;
+        padding-right:100px;
+        border: 2px solid #363062;
+        border-radius:5px;
+        font-size: 15px;
+        margin:15px;
+    }
+}
+  /* SECCION INFLUENCIA*/
+@media(max-width:480px){
+    .video{
+    padding:5px;
+    margin:2px;
+    width:400px;
+    height:200px;
+}
+.imagenes{
+    display: flex;
+    flex-direction:row;
+    width:200px;
+    height:150px;
+    padding-left:10px;
+    padding-right:10px;
+}
+#influencias{
+    display: flex;
+    flex-direction: column;
+}
+#realismossucio{
+    display: flex;
+    flex-direction: column;
+}
+}
+@media(max-width:480px){
+    .d-inline{
+        width:80px;
+        height:30px;
+        padding:15px;
+        margin:15px;
+        font-size: 15px;
+    }
+}
+@media(max-width:480px){
+    #libro1{
+        display: block;
+    }
+
+    #libro2{
+        display:block;
+    }
+    #portadaindex{
+        width:100%;
+    }
+    .cardlibro{
+        margin:15px;
+        padding:20px;
+    }
+}
+  
