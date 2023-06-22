@@ -1,7 +1,7 @@
 @media(max-width:480px){
     .barraNav{
         font-size: 10px;
-        font-weight: bold;
+        font-weight: bold;  
     }
     #menu{
         display:block;
@@ -20,8 +20,7 @@
             padding-top:5px;
             padding-right:5px;
             padding-bottom:5px;
-            border-bottom: 1px solid #827397;
-            
+            border-bottom: 1px solid #827397;   
         }
 }
 @media(max-width:480px){
@@ -35,8 +34,7 @@
     .titulo{
         font-size: 20px;
         padding:10px;
-        margin:10px;
-        
+        margin:10px;    
     }
     .subtitulo{
         font-size: 15px;
@@ -45,36 +43,31 @@
     }
 }
 @media(max-width:480px){
-    #seccion2{
-        flex-direction:column;
-        justify-content:space-between;
-        gap:200px;
-        padding:40px;
-        margin:15px;
-    }
-    #foto-presentacion{
-        width:100px;
-        height:180px;
-    }
-    .presentacion{
-        padding:15px;
-        margin: 15px;
-        height:150px;
-        width:100px;
-        display:block;
-    }
-    .card{
-    width:50px;
-    }
     .index{
-    display:block;
-    }
+        display:block;
+        }
+    .presentacion{  
+            padding:15px;
+            margin: 15px;
+            height:150px;
+            width:100px;
+        }
+    #foto-presentacion{
+            width:100px;
+            height:180px;     
+        }
+    .card{
+            width:50px;
+            padding:15px; 
+            }
+}
+@media(max-width:480px){
     #eventos{
-    padding-top:300px;
-    padding-left:15px;
-    padding-right:15px;
-    margin:15px;
-    }
+        padding-top:300px;
+        padding-left:15px;
+        padding-right:15px;
+        margin:15px;    
+            }
 }
 
 @media(max-width:480px){
@@ -95,7 +88,6 @@
         margin: 20px;
         height:200px;
         width:300px;
-    
     }
     #creaciones{
         display:flex;
@@ -109,7 +101,6 @@
         display: flex;
         flex-direction: column;
         gap:15px;
-    
     }
 }
 @media(max-width:480px){
@@ -129,18 +120,17 @@
 @media(max-width:480px){
     .cuerpocontacto{
         padding:15px;
-        display:block;
-        
+        display:block;   
     }
     .contactar{
         font-size: 15px;
         margin:15px;
     }
     .formulario{
-        width: 400px;
-        padding: 20px;
-        padding-left:20px;
-        padding-right:100px;
+        width:200px;
+        padding: 15px;
+        padding-left:15px;
+        padding-right:15px;
         border: 2px solid #363062;
         border-radius:5px;
         font-size: 15px;

@@ -290,6 +290,13 @@ header nav ul li:hover {
   border: 2px solid #363062;
   border-radius: 5px;
 }
+.cuerpocontacto .ig {
+  color: #827397;
+  font-family: jost-regular;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
 
 @media (max-width: 480px) {
   .barraNav {
@@ -333,12 +340,8 @@ header nav ul li:hover {
   }
 }
 @media (max-width: 480px) {
-  #seccion2 {
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 200px;
-    padding: 40px;
-    margin: 15px;
+  .index {
+    display: block;
   }
   #foto-presentacion {
     width: 100px;
@@ -349,13 +352,9 @@ header nav ul li:hover {
     margin: 15px;
     height: 150px;
     width: 100px;
-    display: block;
   }
   .card {
     width: 50px;
-  }
-  .index {
-    display: block;
   }
   #eventos {
     padding-top: 300px;
@@ -419,10 +418,10 @@ header nav ul li:hover {
     margin: 15px;
   }
   .formulario {
-    width: 400px;
+    width: 50px;
     padding: 20px;
     padding-left: 20px;
-    padding-right: 100px;
+    padding-right: 20px;
     border: 2px solid #363062;
     border-radius: 5px;
     font-size: 15px;
