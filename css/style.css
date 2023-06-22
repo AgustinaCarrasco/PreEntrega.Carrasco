@@ -98,7 +98,7 @@ header nav ul li:hover {
 
 .titulo {
   color: #363062;
-  font-family: jost-medium;
+  font-family: jost-regular;
   font-size: 40px;
   padding: 20px;
   margin: 20px;
@@ -114,7 +114,7 @@ header nav ul li:hover {
 
 .cuerpo {
   color: #827397;
-  font-family: jost-light;
+  font-family: jost-regular;
   text-align: justify;
   padding: 20px;
   margin: 20px;
@@ -176,7 +176,7 @@ header nav ul li:hover {
 
 .escritoss {
   color: #827397;
-  font-family: jost-light-italic;
+  font-family: jost-regular;
   font-style: oblique;
   padding: 25px;
   margin: 15px;

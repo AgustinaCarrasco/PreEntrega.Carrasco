@@ -1,6 +1,6 @@
 @mixin poetry-text ($color, $font, $style, $padding, $margin){
     color:#827397;
-    font-family:jost-light-italic;
+    font-family:jost-regular;
     font-style: oblique;
     padding:25px;
     margin:15px;
@@ -13,7 +13,7 @@
 }
 @mixin text-tittle ($color, $font, $size, $padding, $margin){
     color: #363062;
-    font-family:jost-medium;
+    font-family:jost-regular;
     font-size: 40px;
     padding:20px;
     margin:20px;
@@ -27,7 +27,7 @@
 }
 @mixin text-body ($color, $font, $align, $padding, $margin){
     color:#827397;
-    font-family:jost-light;
+    font-family:jost-regular;
     text-align:justify;
     padding:20px;
     margin:20px;
