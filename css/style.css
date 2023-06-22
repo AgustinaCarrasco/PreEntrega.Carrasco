@@ -272,30 +272,19 @@ header nav ul li:hover {
   background-color: #E9D5DA;
   text-align: justify;
   padding: 30px;
-  display: grid;
-  gap: 80px;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: auto;
-  grid-template-areas: "area1 area2" "area1 area2" "area1 area2";
+  display: flex;
 }
 .cuerpocontacto .contactar {
-  grid-area: area1;
+  padding: 15px;
+  margin: 15px;
 }
 .cuerpocontacto .formulario {
-  grid-area: area2;
-  width: 500px;
+  width: 50%;
   padding: 20px;
   padding-left: 20px;
   padding-right: 100px;
   border: 2px solid #363062;
   border-radius: 5px;
-}
-.cuerpocontacto .ig {
-  color: #827397;
-  font-family: jost-regular;
-  text-decoration: none;
-  font-size: 20px;
-  font-weight: bold;
 }
 
 @media (max-width: 480px) {
@@ -343,19 +332,22 @@ header nav ul li:hover {
   .index {
     display: block;
   }
-  #foto-presentacion {
-    width: 100px;
-    height: 180px;
-  }
   .presentacion {
     padding: 15px;
     margin: 15px;
     height: 150px;
     width: 100px;
   }
+  #foto-presentacion {
+    width: 100px;
+    height: 180px;
+  }
   .card {
     width: 50px;
+    padding: 15px;
   }
+}
+@media (max-width: 480px) {
   #eventos {
     padding-top: 300px;
     padding-left: 15px;
@@ -411,20 +403,20 @@ header nav ul li:hover {
 @media (max-width: 480px) {
   .cuerpocontacto {
     padding: 15px;
-    display: block;
+    flex-direction: column;
   }
   .contactar {
     font-size: 15px;
     margin: 15px;
   }
   .formulario {
-    width: 50px;
-    padding: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    width: 50%;
+    padding: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
     border: 2px solid #363062;
     border-radius: 5px;
-    font-size: 15px;
+    font-size: 10px;
     margin: 15px;
   }
 }
