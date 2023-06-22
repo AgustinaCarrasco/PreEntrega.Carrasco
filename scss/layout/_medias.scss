@@ -120,14 +120,14 @@
 @media(max-width:480px){
     .cuerpocontacto{
         padding:15px;
-        display:block;   
+        flex-direction: column;  
     }
     .contactar{
         font-size: 15px;
         margin:15px;
     }
     .formulario{
-        width:200px;
+        width:50%;
         padding: 15px;
         padding-left:15px;
         padding-right:15px;
