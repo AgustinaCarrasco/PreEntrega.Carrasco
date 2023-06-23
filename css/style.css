@@ -385,16 +385,15 @@ header .barraNav:hover {
     padding-bottom: 5px;
     border-bottom: 1px solid #FF8551;
   }
+  .barraNav1 {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 5px;
+    margin: 5px;
+  }
   .barraNav {
     font-size: 10px;
     font-weight: bold;
-  }
-  #menu {
-    display: block;
-  }
-  nav ul li {
-    border-bottom: none;
-    padding: 10px;
   }
   .cuerpo {
     padding: 15px;
