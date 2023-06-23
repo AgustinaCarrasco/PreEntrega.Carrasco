@@ -1,5 +1,5 @@
 @mixin poetry-text ($color, $font, $style, $padding, $margin){
-    color:#827397;
+    color:#402f0b;
     font-family:jost-regular;
     font-style: oblique;
     padding:25px;
@@ -12,21 +12,21 @@
     margin:15px;
 }
 @mixin text-tittle ($color, $font, $size, $padding, $margin){
-    color: #363062;
+    color: #FF8551;
     font-family:jost-regular;
     font-size: 40px;
     padding:20px;
     margin:20px;
 }
 @mixin text-subtittle ($color, $font, $size, $padding, $margin){
-    color:#363062;
+    color:#FF8551;
     font-family:jost-regular;
     font-size: 24px;
     padding:20px;
     margin:20px;
 }
 @mixin text-body ($color, $font, $align, $padding, $margin){
-    color:#827397;
+    color:#402f0b;
     font-family:jost-regular;
     text-align:justify;
     padding:20px;
@@ -38,6 +38,6 @@
     margin: 30px;
     height:350px;
     width:400px;
-    background-color:#827397;
+    background-color:#9BCDD2;
     border-radius:10px;
 }

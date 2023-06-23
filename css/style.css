@@ -32,20 +32,18 @@ ul {
 }
 
 header {
-  background-color: #E9D5DA;
+  background-color: #FAF0E4;
   text-align: center;
   padding-top: 15px;
   padding-right: 20px;
   padding-bottom: 5px;
-  border-bottom: 1px solid #827397;
+  border-bottom: 1px solid #FF8551;
 }
 header nav ul li {
-  border-bottom: 2px solid #827397;
   padding: 5px;
   transition: 0.4s;
 }
 header nav ul li:hover {
-  border-bottom: 2px solid #981aa3;
   padding: 5px;
 }
 
@@ -54,7 +52,7 @@ header nav ul li:hover {
   justify-content: space-between;
 }
 #menu .barraNav {
-  color: #827397;
+  color: #FF8551;
   font-family: jost-regular;
   text-decoration: none;
   font-size: 20px;
@@ -62,7 +60,7 @@ header nav ul li:hover {
   transition: 0.4s;
 }
 #menu .barraNav:hover {
-  color: #981aa3;
+  color: #d95016;
   font-family: jost-regular;
   text-decoration: none;
   font-size: 20px;
@@ -70,7 +68,7 @@ header nav ul li:hover {
 }
 
 .footer {
-  background-color: #363062;
+  background-color: #FFDEDE;
   padding: 10px;
 }
 .footer #menuredes {
@@ -93,11 +91,11 @@ header nav ul li:hover {
 }
 
 .body {
-  background-color: #E9D5DA;
+  background-color: #FAF0E4;
 }
 
 .titulo {
-  color: #363062;
+  color: #FF8551;
   font-family: jost-regular;
   font-size: 40px;
   padding: 20px;
@@ -105,7 +103,7 @@ header nav ul li:hover {
 }
 
 .subtitulo {
-  color: #363062;
+  color: #FF8551;
   font-family: jost-regular;
   font-size: 24px;
   padding: 20px;
@@ -113,7 +111,7 @@ header nav ul li:hover {
 }
 
 .cuerpo {
-  color: #827397;
+  color: #402f0b;
   font-family: jost-regular;
   text-align: justify;
   padding: 20px;
@@ -144,7 +142,7 @@ header nav ul li:hover {
   border-radius: 5%;
 }
 .index .card-link {
-  color: #827397;
+  color: #FF8551;
 }
 .index #eventos {
   padding: 20px;
@@ -159,7 +157,7 @@ header nav ul li:hover {
 
 #portada {
   font-size: 24px;
-  background-color: #363062;
+  background-color: #FFDEDE;
   padding: 10px;
 }
 
@@ -191,7 +189,7 @@ h1 {
 }
 
 .escritoss {
-  color: #827397;
+  color: #402f0b;
   font-family: jost-regular;
   font-style: oblique;
   padding: 25px;
@@ -204,7 +202,7 @@ h1 {
   margin: 30px;
   height: 350px;
   width: 400px;
-  background-color: #827397;
+  background-color: #9BCDD2;
   border-radius: 10px;
 }
 
@@ -274,7 +272,7 @@ h1 {
 }
 
 .card-link {
-  color: #827397;
+  color: #FF8551;
   font-family: jost-regular;
   text-decoration: none;
   font-size: 20px;
@@ -283,9 +281,9 @@ h1 {
 }
 
 .cuerpocontacto {
-  color: #827397;
-  font-family: jost-light;
-  background-color: #E9D5DA;
+  color: #402f0b;
+  font-family: jost-regular;
+  background-color: #FAF0E4;
   text-align: justify;
   padding: 30px;
   display: flex;
@@ -299,7 +297,7 @@ h1 {
   padding: 20px;
   padding-left: 20px;
   padding-right: 100px;
-  border: 2px solid #363062;
+  border: 2px solid #FF8551;
   border-radius: 5px;
 }
 
