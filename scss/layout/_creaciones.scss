@@ -31,6 +31,21 @@
             }
         }
 }
+#poema3{
+    display: flex;
+    img {
+        width: 25%;
+        height: auto;
+        border-radius:8%;
+        padding:15px;
+        margin:15px;
+        transition:1s;
+      }
+      img:hover{
+        width: 30%;
+        height: auto;
+      }
+}
 
 .accordion-button{
     background-color:#9BCDD2;
