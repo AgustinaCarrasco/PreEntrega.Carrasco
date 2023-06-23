@@ -160,8 +160,8 @@ header .barraNav:hover {
   transition: 1s;
 }
 .index #foto-presentacion:hover {
-  width: 260px;
-  height: 150%;
+  width: 270px;
+  height: 120%;
   border-radius: 5%;
 }
 .index .card-link {
