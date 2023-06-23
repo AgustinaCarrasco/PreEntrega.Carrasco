@@ -157,12 +157,6 @@ header .barraNav:hover {
   width: 250px;
   height: 100%;
   border-radius: 5%;
-  transition: 1s;
-}
-.index #foto-presentacion:hover {
-  width: 255px;
-  height: 105%;
-  border-radius: 5%;
 }
 .index .card-link {
   color: #FF8551;
