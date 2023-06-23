@@ -160,8 +160,8 @@ header .barraNav:hover {
   transition: 1s;
 }
 .index #foto-presentacion:hover {
-  width: 240px;
-  height: 400px;
+  width: 260px;
+  height: 120px;
   border-radius: 5%;
 }
 .index .card-link {
@@ -177,7 +177,7 @@ header .barraNav:hover {
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   animation-duration: 3s;
-  animation-delay: 2s;
+  animation-delay: 1s;
 }
 @keyframes animacion {
   0% {

@@ -26,20 +26,13 @@
     align-items: center;
     flex-wrap: wrap;
     gap:15px;
-    // height: 470px;
     .presentacion{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        // align-items: center;
         gap:30px;
         height: 100%;
-        // width:50%; 
-        // height:40%;
-        // margin-left:auto;
-        // margin-right:auto;
         padding:20px;
-        // padding-left:80px;
     }
     #foto-presentacion{
         width:250px;
@@ -48,8 +41,8 @@
         transition:1s;
     }
     #foto-presentacion:hover{
-        width:240px;
-        height:400px;
+        width:260px;
+        height:120px;
         border-radius:5%;
     
     }
@@ -57,11 +50,7 @@
         color: #FF8551;
     }
     #eventos{
-        // width:50%; 
-        // height:40%;
         padding:20px;
-        // padding-right:80px;
-        // margin:auto;
     }
 }
 
@@ -72,7 +61,7 @@
     animation-iteration-count:infinite;
     animation-timing-function: linear;
     animation-duration:3s;
-    animation-delay:2s;
+    animation-delay:1s;
 
     @keyframes animacion {
         0%{
