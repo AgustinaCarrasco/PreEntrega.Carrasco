@@ -11,6 +11,15 @@
 .cuerpo{
     @include text-body(#827397, jost-light, justify, 20px, 20px)
 }
+.banner img{
+    width:100%;
+    height: 450px;
+    object-fit:cover;
+     }
+#portada{
+    font-size: 24px; 
+    padding: 10px;
+}
 .index{
     display:flex;
     justify-content: space-evenly;
@@ -55,15 +64,7 @@
         // margin:auto;
     }
 }
-.banner img{
-    width:100%;
-    height: 450px;
-    object-fit:cover;
-     }
-#portada{
-    font-size: 24px; 
-    padding: 10px;
-}
+
 
 .card-bodyy{
     padding: 20px;
