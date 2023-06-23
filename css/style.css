@@ -230,6 +230,26 @@ h1 {
   gap: 70px;
 }
 
+.accordion-button {
+  background-color: #9BCDD2;
+  color: #402f0b;
+}
+
+#collapseOne {
+  background-color: #FFDEDE;
+  color: #402f0b;
+}
+
+#collapseTwo {
+  background-color: #FFDEDE;
+  color: #402f0b;
+}
+
+#collapseThree {
+  background-color: #FFDEDE;
+  color: #402f0b;
+}
+
 #influencias {
   display: flex;
 }
