@@ -138,6 +138,7 @@ header .barraNav:hover {
   margin-left: auto;
   margin-right: auto;
   padding: 20px;
+  padding-left: 80px;
 }
 .index #foto-presentacion {
   width: 170px;
@@ -155,6 +156,7 @@ header .barraNav:hover {
 }
 .index #eventos {
   padding: 20px;
+  padding-right: 80px;
   margin: auto;
 }
 
@@ -316,6 +318,11 @@ header .barraNav:hover {
   height: 350px;
   padding: 20px;
   margin: 15px;
+}
+
+#influenciasintro {
+  background-color: #FFDEDE;
+  border-radius: 5px;
 }
 
 #portada-uno {
