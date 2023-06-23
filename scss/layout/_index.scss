@@ -42,7 +42,7 @@
     }
     #foto-presentacion:hover{
         width:260px;
-        height:120px;
+        height:150%;
         border-radius:5%;
     
     }
@@ -53,8 +53,6 @@
         padding:20px;
     }
 }
-
-
 .card-bodyy{
     padding: 20px;
     animation-name: animacion;
@@ -63,7 +61,7 @@
     animation-duration:3s;
     animation-delay:1s;
 
-    @keyframes animacion {
+    @keyframes animacion{
         0%{
             background-color:#FAF0E4;
             transform: none;

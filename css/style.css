@@ -161,7 +161,7 @@ header .barraNav:hover {
 }
 .index #foto-presentacion:hover {
   width: 260px;
-  height: 120px;
+  height: 150%;
   border-radius: 5%;
 }
 .index .card-link {
