@@ -53,3 +53,28 @@
     font-size: 24px; 
     padding: 10px;
 }
+
+.card-bodyy{
+    padding: 20px;
+    animation-name: animacion;
+    animation-iteration-count:infinite;
+    animation-timing-function: linear;
+    animation-duration:3s;
+    animation-delay:2s;
+
+    @keyframes animacion {
+        0%{
+            background-color:#FAF0E4;
+            transform: none;
+        }
+        50%{
+            background-color:#f5a684;
+            transform: none;
+        }
+        100%{
+            background-color:#FFDEDE;
+            transform: none;
+        }
+        
+    }
+}
