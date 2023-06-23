@@ -49,13 +49,13 @@
 }
 .card-bodyy{
     padding: 20px;
-    animation-name: animacion;
+    animation-name:cardAnimacion;
     animation-iteration-count:infinite;
     animation-timing-function: linear;
-    animation-duration:3s;
+    animation-duration:2s;
     animation-delay:1s;  
 }
-@keyframes animacion{
+@keyframes cardAnimacion{
     0%{
         background-color:#FAF0E4;
         transform: none;
