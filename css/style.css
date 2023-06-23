@@ -503,6 +503,11 @@ header .barraNav:hover {
     height: 400px;
     width: 300px;
   }
+  img {
+    border-radius: 5%;
+    width: 60%;
+    height: auto;
+  }
   .texto {
     display: block;
   }
