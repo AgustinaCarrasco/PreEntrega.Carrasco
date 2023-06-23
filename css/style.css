@@ -134,7 +134,8 @@ header .barraNav:hover {
 .index .presentacion {
   display: flex;
   gap: 30px;
-  width: 60%;
+  width: 50%;
+  height: 40%;
   margin-left: auto;
   margin-right: auto;
   padding: 20px;
@@ -155,6 +156,8 @@ header .barraNav:hover {
   color: #FF8551;
 }
 .index #eventos {
+  width: 50%;
+  height: 40%;
   padding: 20px;
   padding-right: 80px;
   margin: auto;
