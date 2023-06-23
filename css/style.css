@@ -160,8 +160,8 @@ header .barraNav:hover {
   transition: 1s;
 }
 .index #foto-presentacion:hover {
-  width: 270px;
-  height: 120%;
+  width: 260px;
+  height: 110%;
   border-radius: 5%;
 }
 .index .card-link {
@@ -179,6 +179,7 @@ header .barraNav:hover {
   animation-duration: 3s;
   animation-delay: 1s;
 }
+
 @keyframes animacion {
   0% {
     background-color: #FAF0E4;
@@ -193,7 +194,6 @@ header .barraNav:hover {
     transform: none;
   }
 }
-
 .biografia {
   display: grid;
   grid-template-columns: repeat(4, 1fr);

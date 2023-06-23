@@ -41,10 +41,9 @@
         transition:1s;
     }
     #foto-presentacion:hover{
-        width:270px;
-        height:120%;
+        width:260px;
+        height:110%;
         border-radius:5%;
-    
     }
     .card-link{
         color: #FF8551;
@@ -59,21 +58,20 @@
     animation-iteration-count:infinite;
     animation-timing-function: linear;
     animation-duration:3s;
-    animation-delay:1s;
-
-    @keyframes animacion{
-        0%{
-            background-color:#FAF0E4;
-            transform: none;
-        }
-        50%{
-            background-color:#f5a684;
-            transform: none;
-        }
-        100%{
-            background-color:#FFDEDE;
-            transform: none;
-        }
-        
+    animation-delay:1s;  
+}
+@keyframes animacion{
+    0%{
+        background-color:#FAF0E4;
+        transform: none;
     }
+    50%{
+        background-color:#f5a684;
+        transform: none;
+    }
+    100%{
+        background-color:#FFDEDE;
+        transform: none;
+    }
+    
 }
