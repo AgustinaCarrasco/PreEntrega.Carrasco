@@ -39,32 +39,31 @@ header {
   padding-bottom: 5px;
   border-bottom: 1px solid #FF8551;
 }
-header nav ul li {
-  padding: 5px;
-  transition: 0.4s;
+header .offcanvas-header {
+  background-color: #FAF0E4;
 }
-header nav ul li:hover {
-  padding: 5px;
+header .offcanvas-body {
+  background-color: #FAF0E4;
 }
-
-#menu {
-  display: flex;
-  justify-content: space-between;
-}
-#menu .barraNav {
+header .barraNav1 {
+  text-decoration: none;
   color: #FF8551;
   font-family: jost-regular;
-  text-decoration: none;
-  font-size: 20px;
-  font-weight: bold;
-  transition: 0.4s;
+  font-size: 40px;
+  padding: 5px;
+  margin: 5px;
 }
-#menu .barraNav:hover {
-  color: #d95016;
-  font-family: jost-regular;
+header .barraNav {
   text-decoration: none;
-  font-size: 20px;
-  font-weight: bold;
+  color: #FF8551;
+  color: #FF8551;
+  font-family: jost-regular;
+  font-size: 24px;
+  padding: 20px;
+  margin: 20px;
+}
+header .barraNav:hover {
+  color: #9f370b;
 }
 
 .footer {

@@ -7,37 +7,31 @@ header{
     padding-top:15px;
     padding-right:20px;
     padding-bottom:5px;
-    border-bottom: 1px solid #FF8551;
-    nav ul li {
-        
+    border-bottom: 1px solid #FF8551;  
+    .offcanvas-header{
+        background-color: #FAF0E4;
+    }
+    .offcanvas-body{
+        background-color: #FAF0E4;
+    }
+    .barraNav1{
+        text-decoration: none;
+        color: #FF8551;
+        font-family:jost-regular;
+        font-size: 40px;
         padding:5px;
-        transition: 0.4s;
-        &:hover{
-            
-            padding:5px;
-        }
+        margin:5px;
     }
-        
+    .barraNav{
+        text-decoration: none;
+        color: #FF8551;
+        @include text-subtittle(#363062, jost-regular, 24px, 20px, 20px)
     }
-    #menu{
-        display: flex;
-        justify-content: space-between;
-        .barraNav{
-            color:#FF8551;
-            font-family:jost-regular;
-            text-decoration: none;
-            font-size: 20px;
-            font-weight: bold;
-            transition:0.4s;
-            &:hover{
-            color: #d95016;
-            font-family:jost-regular;
-            text-decoration: none;
-            font-size: 20px;
-            font-weight: bold;
-            }
-        }
-     }
+    .barraNav:hover{
+        color: #9f370b;
+    }
+    }
+
  
     
     
