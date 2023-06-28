@@ -164,7 +164,7 @@ header .barraNav:hover {
 .index #eventos {
   padding: 20px;
 }
-.index #eventos .card-body {
+.index #eventos .card-bodyy {
   padding: 20px;
   animation-name: cardanimacion;
   animation-iteration-count: infinite;
