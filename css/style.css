@@ -164,17 +164,15 @@ header .barraNav:hover {
 .index #eventos {
   padding: 20px;
 }
-
-.card-body {
+.index #eventos .card-body {
   padding: 20px;
-  animation-name: cardAnimacion;
+  animation-name: cardanimacion;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   animation-duration: 2s;
   animation-delay: 2s;
 }
-
-@keyframes cardAnimacion {
+@keyframes cardanimacion {
   0% {
     background-color: #FAF0E4;
     transform: none;
@@ -188,6 +186,7 @@ header .barraNav:hover {
     transform: none;
   }
 }
+
 .biografia {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
